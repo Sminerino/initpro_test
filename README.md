@@ -14,7 +14,7 @@ Features
 
 Constraints
 ------
-1. Columns and column types (used for sorting) are formed from the first element in JSON array.
+1. Columns and column types (used for sorting) are formed from the first element in JSON array (therefore, column titles are based on keys of this element)
 2. If other elements have different structure, only those fields that first element has will be rendered
 3. Sorting method (i.e. for number or for date) are determined by the same first element.
 it means, if the first element 'item' has field 'key' of type 'number', corresponding column will be sorted
